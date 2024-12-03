@@ -34,9 +34,9 @@ body {
     color: #fff !important;
     margin: 0;
     padding: 0;
-}
+} 
 
-.container-store {
-    background-color: #222 !important;
-
+.store {
+    background-color: #ff6347 !important;
+    color: black;
 }
