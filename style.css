@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }  
+
 .navbar {
     background-color: #222 !important;
     color: #fff !important;
@@ -16,16 +20,8 @@
     color: #fff !important;
 }
 
-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 8px;
-}
-
-button:hover {
-    background-color: #0056b3;
+.nav-link:hover {
+    color: #ff6347 !important;
 }
 
 body {
@@ -40,3 +36,37 @@ body {
     background-color: #ff6347 !important;
     color: black;
 }
+
+.social-links a {
+    margin: 0 10px; 
+    padding: 10px;  
+    color: #333;    
+    font-size: 24px; 
+    transition: all 0.3s ease; 
+}
+
+.social-links a:hover i {
+    color: #ff4500; 
+    transform: scale(1.1); 
+}
+
+.social-links .fa-instagram {
+    color: #fff; 
+}
+
+.social-links .fa-facebook {
+    color: #fff; 
+}
+
+.social-links .fa-tiktok {
+    color: #fff; 
+}
+
+.social-links .fa-x {
+    color: #fff; 
+}
+
+.social-links .fa-youtube {
+    color: #fff; 
+}
+
