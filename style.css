@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-  }  
+}
 
 .navbar {
     background-color: #222 !important;
@@ -27,10 +27,11 @@ html {
 body {
     font-family: 'Arial', sans-serif;
     background-color: #222 !important;
+    overflow-x: hidden;
     color: #fff !important;
     margin: 0;
     padding: 0;
-} 
+}
 
 .store {
     background-color: #ff6347 !important;
@@ -38,35 +39,85 @@ body {
 }
 
 .social-links a {
-    margin: 0 10px; 
-    padding: 10px;  
-    color: #333;    
-    font-size: 24px; 
-    transition: all 0.3s ease; 
+    margin: 0 10px;
+    padding: 10px;
+    color: #333;
+    font-size: 24px;
+    transition: all 0.3s ease;
 }
 
 .social-links a:hover i {
-    color: #ff4500; 
-    transform: scale(1.1); 
+    color: #ff4500;
+    transform: scale(1.1);
 }
 
 .social-links .fa-instagram {
-    color: #fff; 
+    color: #fff;
 }
 
 .social-links .fa-facebook {
-    color: #fff; 
+    color: #fff;
 }
 
 .social-links .fa-tiktok {
-    color: #fff; 
+    color: #fff;
 }
 
 .social-links .fa-x {
-    color: #fff; 
+    color: #fff;
 }
 
 .social-links .fa-youtube {
-    color: #fff; 
+    color: #fff;
 }
 
+.card-group .card-body,
+.card-group .card-footer {
+    color: black !important;
+}
+
+.carrousel-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 1;
+}
+
+.btn-hover {
+    transition: 0.3s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #bd2130 !important;
+    border-color: #bd2130 !important;
+    outline: none !important;
+}
+
+input[type="checkbox"]:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+  
