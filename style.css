@@ -71,11 +71,6 @@ body {
     color: #fff;
 }
 
-.card-group .card-body,
-.card-group .card-footer {
-    color: black !important;
-}
-
 .carrousel-img {
     height: 300px;
     object-fit: cover;
@@ -118,6 +113,3 @@ input[type="checkbox"]:focus {
     outline: none !important;
     box-shadow: none !important;
 }
-
-
-  
